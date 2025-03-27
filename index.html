@@ -3,247 +3,289 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diti.io</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Application Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="dit">
-            <img src="images/di.jpeg" alt="">
+       
+<section class="page">
+    <nav class="nav-bar">
+        <div class="logo">dit.io</div>
+        <ul class="nav-links">
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <a href="#" class="login">Log in</a>
+            <a href="#" class="signup">Sign up</a>
         </div>
-       <nav class="nav-bar">
-        <a href="#">Feature</a>
-        <a href="#">About us</a>
-        <a href="#">Product</a>
-        <a href="#">Pricing</a>
-        <a href="#">Feedbacks</a>
-        <button type="submit_button" id="submit_button">Log in </button>   
-        <button type="submit_button" id="submit">Sign up </button>      
-       </nav>
-        </header>
-    <main>
-        <section class="improve-charge">
-            <div class="left-improve-charge">
-                <h1>Improve the way <span id="charge">you charge</span>,with one click</h1>
-                <p>Deski deliverd blazing fast perfomance,strinking word solution</p>
-                <div class="buttons">
-                    <!-- /come back -->
-                    <button id="apple-btn"><i class="fa-brands fa-apple">Apple Store</i></button>
-                   <button type="button" id="submit-play"><img width="48" height="48" src="https://img.icons8.com/color/48/google-play.png" alt="google-play"/>Play Store</button>
-                    <p>Different platforms?<a href="#">Contact us</a></p>
+    </nav>
+    
+    <section class="charge">
+        <div class="text-content">
+            <h1 class="text-header">Improve the way <span class="highlight"><br>you charge</span>,<br> with one click</h1>
+            <p class="text-context-paragraph">Deski delivered blazing fast performance, striking word solution</p>
+            <div class="buttons">
+                <div>
+                    <button class="apple-page-button"><i class="fa-brands fa-apple" id="apple-button"></i>App store</button>
+                </div>
+                <div>
+                    <button class="play-page-button"><i class="fa-brands fa-google-play" id="store-button"></i>Play store</button>
                 </div>
             </div>
+            <p class="contact">Different Platform? <a href="#">Contact us</a></p>
+        </div>
+        
+        <div class="image-content">
+            <div class="profile-card">
+                <div class="user-info">
+                    <img src="images/Rogerimg.jpeg" alt="User Image" class="user-img">
+                    <div>
+                        <p class="name">Roger Westervelt</p>
+                        <p class="title">Technical Assistant<br><span class="company">Oculus</span></p>
+                    </div>
+                </div>
+                <p class="stats">22 Worked days</p>
+                <div class="salary">
+                    <p>€ 1,500 <span>Monthly salary</span></p>
+                    <p>€ 750 <span>Salary available</span></p>
+                </div>
+                <div class="progress">
+                    <p>Fast uploading</p>
+                    <div class="progress_bar">
+                        <div class="progress_fill"></div>
+                    </div>
+                    <span>73%</span>
+ 
+                </div>
+                <img src="images/westervelt.jpeg" class="shocked-man" alt="shocked white man">
+                <div class="img-notification">
+                    <h2>Fast uploading</h2>
+                    <p>AVg speed</p>
+                </div>
+            </div>
+        </div> 
+    </section>
+</section>
 
-        <section class="right-improve-charge">
-            <div class="need-amount">
-            <img src="images/Rogerimg.jpeg" alt="happy-man" id="happy-man">
-            <p id="need-amount-p">You received finr 600 and needs to be paid</p>
-            </div>
-        <div class="techinical">
-            <h2>Roger Roger-Westervelt</h2>
-            <p>Technical assistant</p>
-            <h3>oculus</h3>
-            <hr>
-            <div class="days-number">
-                <h3>22</h3>
-                <p>Worked days</p>
-            </div>
-            <h3>1500</h3>
-            <p>Monthly salary</p>
-            <h3>750</h3>
-            <p>Salary available</p>
-            <div class="westervelt-img">
-                <img src="images/westervelt.jpeg" alt="westervelt image">
-            </div>
-            <div class="uploading">
-            <h3>Fast uploading</h3>
-            <p>Avg speed</p>
-            <div><i class="fa-thin fa-percent"></i>73</div>
+    <section class="partners">
+        <p class="partners-paragraph"> Over <span class="partners-num"> 32k+</span> software business growing with dit.io</p>
+        <div>
+            <div class="companies">
+                <div class="microsoft-company">
+                    <div>
+                        <img src="images/Microsoft_logo.svg.png" class="microsoft-logo">   
+                    </div>
+                    <div class="company-name">
+                        <p>Microsoft</p>
+                    </div>
+                </div>
+                <div class="trello-company">
+                    <div>
+                        <img src="images/trello.png" class="trello-logo">
+                    </div>
+                    <div class="company-name">
+                        <p>trello</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/Google_2015_logo.svg.png" class="google-logo">
+                </div>
+                <div class="dropbox-company">
+                    <div>
+                        <img src="images/channels4_profile.jpg" class="dropbox-logo">
+                    </div>
+                    <div class="company-name">
+                        <p>Dropbox</p>
+                    </div>
+                </div>
+                <div class="slack-company">
+                    <div>
+                        <img src="images/Slack.webp" class="slack-logo">
+                    </div>
+                    <div class="company-name">
+                        <p>Slack</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-        </section>
-        <section class="software-growth">
-            <h2>Over 32k+ software business growing with dit.io</h2>
-            <div class="icons">
-                <img width="48" height="48" src="https://img.icons8.com/fluency/48/microsoft.png" alt="microsoft"/>
-                <i class="fa-brands fa-trello">Trello</i>
-                <img width="48" height="48" src="https://img.icons8.com/fluency/48/google-logo.png" alt="google-logo"/>
-                <i class="fa-brands fa-dropbox">Dropbox</i>
-                <i class="fa-brands fa-slack"></i>
-                </div>
-        </section>
-        <section class="product-worked-on">
-            <h1>The <span id="product">Product</span> we  work with</h1>
-            <div class="products">
-            <div class="easy-interface">
-                <i class="fa-solid fa-star"></i> 
-                <h3>Easy Interface</h3>  
-                <p>dit.io deliverd blazing fast perform striking</p>
+    <section class="features">
+        <h2 class="features-header">The <span class="highlight">Product</span> we work with</h2>
+        <div class="feature-cards">
+            <div class="card"> 
+                <i class="fa-solid fa-star" id="star-icon"></i>
+                <h3>Easy Interface</h3>
+                <p>Dit.io delivered blazing fast performance</p>
             </div>
-            <div class="secured-transfers">
-                <h3>Secured Transfer</h3>
-                <p>dit.io deliverd blazing fast perform striking</p>
+            <div class="card">
+                <i class="fa-solid fa-water-ladder"id="security-icon"></i>
+                <h3>Secured Transfers</h3>
+                <p>Dit.io delivered blazing fast performance</p>
             </div>
-            <div class="support">
-                <i class="fa-light fa-magnifying-glass-waveform"></i>
+            <div class="card">
+                <i class="fa-solid fa-eye-dropper" id="drop-icon"></i>
                 <h3>24/7 Support</h3>
-                <p>dit.io deliverd blazing fast perform striking</p>
+                <p>Dit.io delivered blazing fast performance</p>
             </div>
         </div>
-        </section>
-
-        <section class="numbers-users">
-            <h1>Okay, Let's see</h1>
-            <span id="diti.io">diti.io in numbers</span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquam nec platea</p>
-            <div class="user-numbers">
-                <div class="download-users">
-                    <div class="downloads">
-                    <h1>50.4K</h1>
-                    <p id="highlighted-p">Downloads</p>
-                    </div>
-                 <div>
-                    <h1>20K</h1>
-                    <p id="highlighted-p">Active users</p>
-                 </div>
-                </div>
-                 <div class="group-subscribers">
-                    <div class="group">
-                    <h1>300+</h1>
-                    <p id="highlighted-p">Using group</p>
-                    </div>
-                    <div class="subscribers">
-                    <h1>10K</h1>
-                    <p id="highlighted-p">Subscribers</p>
-                    </div>
-                </div>
-
-                <div class="left-create-account">
-                    <!-- box -->
-                     <div class="create-account">
-                        <p>How to create account</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                        <button id="watch">Watch</button>
-                     </div>
-                    <div>
-                        <div class="anime-man">
-                            <img src="images/animate.jpeg" alt="gent anime">
-                        </div>
-                        <div class="anime-lady">
-                            <img src="images/animatelady.jpeg" alt="anima lady">
-                        </div>
-                    </div>
-                    <div class="study-with">
-                        <i class="fa-solid fa-anchor"></i> 
-                        <h3>Study with me</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <button id="join">Join</button>
-
-                    </div>
-                </div>
- </section>
- <section class="help-customers">
-    <h1 class="help-customers-h1">We are helping <span id="help-customers-p">customer globally</span>everytime</h1>
-    <div class="mobile-app">
-        <i class="fa-solid fa-mobile"></i>
-        <h1>Mobile App Interface</h1>
-<p>Deski deliverd blazing fast perform striking word solutionour company will be best ever soon in the </p>
-<button type="submit" id="know-more">Know More</button>
-    </div>
-    <div class="settings">
-<h3>Account</h3>
-<div class="tim-david">
-    <i class="fa-regular fa-user"></i>
-    <p>Tim david</p><i class="fa-solid fa-angle-right"></i>
-    <p>Design</p>
-</div>
-<div class="settings">
-    <i class="fa-solid fa-face-smile">Language</i> English<i class="fa-solid fa-angle-right"></i>
-</div>
-    </div>
-    <div>
-        <h3>Boost social app to make new friends</h3>
-        <button type="submit" id="submit-btn">Log in</button>
-        <button type="submit" id="submit">sign up</button>
-        <!-- icons -->
-         <img src="images/angel.jpeg" alt="angel animate">
-         <p>Angel jorina</p>
-    </div>
- </section>
- <section class="words-clients">
-    <p id="clients-words">Some words Froms ur clients</p>
-    <div class="clients">
-        <img src="images/edwin.avif" alt="Edwin zohir">
-        <i class="fa-solid fa-star">5.0</i>
-        <h2>Edwin zohir</h2>
-        <h3>businessman</h3>
-        <p>We make a payment easier and simpler .Receive and send payment fund without cash.Dpay makes moving money as simple jrey knf ke cjfficowef erokfov</p>
-    </div>
-    <div class="jerson">
-        <img src="images/jerson.webp" alt="">
-        <i class="fa-solid fa-star">5.0</i>
-        <p>We make a payment easier and simpler .Receive and send payment fund without cash.Dpay makes moving money as simple jrey knf ke cjfficowef erokfov</p>
-    </div>
- </section>
- <section class="download">
-    <div class="download-app">
-    <img src="images/downloadapp.png" alt="anime of downloading app">
-    </div>
-    <div class="users">
-        <p>Over <strong>50,000+ Users</strong></p>
-        <h1>Download diti.io Mobile App</h1>
-        <button id="apple-button"><i class="fa-brands fa-apple">Apple Store</i></button>  
-        <button type="button" id="submit-play"><img width="48" height="48" src="https://img.icons8.com/color/48/google-play.png" alt="google-play"/>Play Store</button>
-        <p>Different platforms?<a href="#">Contact us</a></p>
-    </div>
-
- </section>
- <section class="product-offered">
- <div class="icons">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-facebook-f"></i>
-    </div>
+    </section>
     
-    <div class="our-products">
-        <h2>Our products</h2>
-        <a href="#">Feature</a>
-        <a href="#">Smart savings</a>
-        <a href="#">Personal insurance</a>
-        <a href="#">Apps and downloads</a>
+    <section>
+        <div class="container">
+            <div class="left-section">
+                <h1>Okay, Let's see <span>diti.io</span> in numbers</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna sit aliquam a rhoncus. Aliquam nec platea.</p>
+                <div class="number-section">
+                    <div class="number-item">
+                        <h2>50.4K</h2>
+                        <p>Downloads</p>
+                    </div>
+                    <div class="number-item">
+                        <h2>20K</h2>
+                        <p>Active users</p>
+                    </div>
+                    <div class="number-item">
+                        <h2>300+</h2>
+                        <p>Using group</p>
+                    </div>
+                    <div class="number-item">
+                        <h2>10K+</h2>
+                        <p>Subscribers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-account-section">
+                <div class="card">
+                    <h3>How to create account</h3>
+                    <p>Study stream via live time with our apps</p>
+                    <button>Watch</button>
+                </div>
+                <div class="card study">
+                    <h3>Study with me</h3>
+                    <p>Study stream via live time with our apps</p>
+                    <button>Join</button>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section>
+        
+        <h1 class="app-interface-header">We are helping<br> <span class="red-text">customers globally</span> everytime.</h1>
+    <div class="app-interface">
+        <div class="content">
+            <h2>Mobile App Interface</h2>
+            <p>Deski delivered blazing fast performance, striking word solution. Our company will be the best ever soon in the industry.</p>
+            <button class="btn">Know more</button>
+        </div>
+        <div class="images">
+            <img src="images/animate.jpeg" alt="Settings UI">
+            <img src="images/animatelady.jpeg" alt="Social App UI">
+        </div>
     </div>
-    <div class="Top Feature">
-        <h2>Top Feature</h2>
-        <a href="#">Instant access</a>
-        <a href="#">Finance education</a>
-        <a href="#">Smart savings</a>
-        <a href="#">Monthly budgeting</a>
-        <a href="#">Apps & integrations</a>
-    </div>
-    <div class="company">
-        <h2>Company</h2>
-        <a href="#">About us</a>
-        <a href="#">contact</a>
-        <a href="#">Career</a>
-        <a href="#">Tearms of services</a>
-        <a href="#">privacy policy</a>
+    </section>
+   
+    <section class="clients">
+        <h2 class="highlight-header"><span class="highlight">Some words</span> from our clients</h2>
+        <div class="testimonial-container">
+            <div class="client">
+                <img src="images/edwin.avif" alt="Edwin Zohir" class="profile-pic">
+                <h1 class="names">Edwin Zohir</h1>
+                <p class="role">Businessman</p>
+                <p class="review">We make all payments easier and simpler. DPay makes moving money as simple as ever.</p>
+                <span class="rating"> 5.0</span>
+            </div>
+            <div class="client">
+                <img src="images/jerson.webp" alt="Jecson Mokbul" class="profile-pic">
+                <h1 class="names">Jecson Mokbul</h1>
+                <p class="role">Businessman</p>
+                <p class="review">We make all payments easier and simpler. DPay makes moving money as simple as ever.</p>
+                <span class="rating">5.0</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="app-download">download-values
+            <div>
+                 <img src="images/downloadapp.png">
+            </div>
+            <div class="download-values">
+                <p class="users">Over <strong>50,000+</strong> Users</p>
+                <h2>Download diti.io Mobile App</h2>
+                <div class="buttons">
+                    <div>
+                        <button class="apple-page-button"><i class="fa-brands fa-apple" id="apple-button"></i>App store</button>
+                    </div>
+                    <div>
+                        <button class="play-page-button"><i class="fa-brands fa-google-play" id="store-button"></i>Play store</button>
+                    </div>
+                </div>
+                <p class="contact">Different Platform? <a href="#">Contact us</a></p>
 
-    </div>
-    <div class="resourse">
-    <h2>Resource</h2>
-        <a href="#">Blog</a>
-        <a href="#">Help & services</a>
-        <a href="#">customer</a>
-        <a href="#">Legal</a>
-        <a href="#">FAQ</a>
-    </div>
+            </div>
+        </div>
     </section>
     <footer>
-<p>&copy; copyright@diti.io 2022. All rights reserved.</p>
-<p>Terms and conditions</p> |
-<p>Privacy and policy</p>  
-</footer>
+        <div class="footer-container">
+            
+            <div class="footer-logo">
+                <p><span class="diti-logos">d</span>diti.io</p>
+                <div class="social-icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+    
+          
+            <div class="footer-links">
+                <div>
+                    <h4>Our Products</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Smart savings</a></li>
+                        <li><a href="#">Investing</a></li>
+                        <li><a href="#">Personal insurance</a></li>
+                        <li><a href="#">Apps & downloads</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Top Features</h4>
+                    <ul>
+                        <li><a href="#">Instant access</a></li>
+                        <li><a href="#">Finance education</a></li>
+                        <li><a href="#">Smart savings</a></li>
+                        <li><a href="#">Monthly budgeting</a></li>
+                        <li><a href="#">Apps & integrations</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; Copyright @diti.io 2022. All Rights Reserved</p>
+            <a href="#">Terms and conditions</a>
+        </div>
+    </footer>
+
+
+
+    
 </body>
 </html>
