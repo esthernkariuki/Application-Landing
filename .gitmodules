@@ -1,0 +1,3 @@
+[submodule "cooking/cooking/cleancircuit-frontend"]
+	path = cooking/cooking/cleancircuit-frontend
+	url = git@github.com:esthernkariuki/cleancircuit-frontend.git
