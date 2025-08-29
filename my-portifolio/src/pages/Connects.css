@@ -1,0 +1,100 @@
+.connect-section {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.connect-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+.connect-illustration {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.connect-illustration img {
+  width: 350px;
+  max-width: 80vw;
+}
+.connect-form {
+  flex: 1;
+  background: #a259ff;
+  border-radius: 20px;
+  padding: 2.2rem 2rem 1.7rem 2rem;
+  color: #fff;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  box-shadow: 0 2px 22px #0003;
+}
+.connect-form-row {
+  display: flex;
+  gap: 0.7rem;
+}
+.connect-form input,
+.connect-form textarea {
+  border: none;
+  border-radius: 7px;
+  padding: 0.95em;
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 0.5em;
+  outline: none;
+  background: #fff;
+  color: #18181b;
+}
+.connect-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+.connect-submit {
+  background: #fff;
+  color: #a259ff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7px;
+  padding: 0.7rem 0;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.connect-submit:hover {
+  background: #232323;
+  color: #fff;
+}
+.connect-email {
+  margin-top: 0.8em;
+  font-size: 0.98em;
+}
+.connect-footer {
+  margin-top: 2rem;
+  padding: 1.5rem 0 0.7rem 0;
+  text-align: center;
+  color: #bbb;
+  border-top: 1px solid #232323;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+.connect-footer a {
+  color: #bbb;
+  margin: 0 0.5em;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+@media (max-width: 900px) {
+  .connect-grid {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .connect-illustration img {
+    width: 230px;
+  }
+}
